@@ -6,12 +6,20 @@ import { Works } from "./components/Works";
 
 const Container = styled.div`
   height: 100vh;
-  background: aqua;
+  background: url("./img/bg.jpg");
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  scrollbar-width: none;
+  color: white;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 `;
 
 const App = () => {
   return (
-    <Container style={{ color: "green" }}>
+    <Container>
       <Hero />
       <Who />
       <Works />
