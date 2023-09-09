@@ -5,6 +5,9 @@ const Section = styled.div`
   height: 100vh;
   scroll-snap-align: center;
 `;
-export const Works = () => {
+
+const Works = () => {
   return <Section>Works</Section>;
 };
+
+export default Works;

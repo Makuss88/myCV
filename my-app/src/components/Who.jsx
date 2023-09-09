@@ -5,6 +5,9 @@ const Section = styled.div`
   height: 100vh;
   scroll-snap-align: center;
 `;
-export const Who = () => {
+
+const Who = () => {
   return <Section>Who</Section>;
 };
+
+export default Who;

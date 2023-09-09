@@ -6,6 +6,8 @@ const Section = styled.div`
   scroll-snap-align: center;
 `;
 
-export const Contact = () => {
+const Contact = () => {
   return <Section>Contact</Section>;
 };
+
+export default Contact;
