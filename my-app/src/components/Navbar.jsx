@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Button from "../UI/Button";
 
 const Section = styled.div`
   display: flex;
@@ -22,6 +23,7 @@ const Links = styled.div`
 const Logo = styled.img`
   height: 50px;
 `;
+
 const List = styled.ul`
   display: flex;
   gap: 20px;
@@ -39,16 +41,7 @@ const Icons = styled.div`
 
 const Search = styled.img`
   height: 50px;
-  cursor: pointer;
-`;
-const Button = styled.button`
-  width: 160px;
-  height: 40px;
-  padding: 10px;
-  border: none;
-  border-radius: 10px;
-  color: white;
-  background-color: #3175b1;
+  border-radius: 100%;
   cursor: pointer;
 `;
 
@@ -67,7 +60,7 @@ const Navbar = () => {
         </Links>
         <Icons>
           <Search src="./img/search.png" />
-          <Button> HIRE?? </Button>
+          <Button text={"Hire"} />
         </Icons>
       </Container>
     </Section>
