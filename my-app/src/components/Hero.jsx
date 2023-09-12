@@ -44,7 +44,7 @@ const WhatWeDo = styled.div`
 `;
 
 const Subtitle = styled.h2`
-  color: #c08282;
+  color: #af7c49;
 `;
 
 const Desc = styled.p`
